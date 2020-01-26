@@ -1,0 +1,98 @@
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		link(rel="stylesheet", href="./assets/static/css/new.css")
+		title Document
+	body
+		.forms-button 
+			a(href="#" style="color:black") asdfds
+		.form-overlay
+			form.form
+				.form-close
+					img(src="http://www.host1712641.hostland.pro/wp-content/themes/storefront/custom/close.png" alt="close")
+				.form-heading
+					h3 Напишите нам
+				.form-input
+					input(type="text" name="name" placeholder="Как вас зовут?")
+				.form-input
+					input(type="text" name="email" placeholder="Ваш телефон")
+				.form-input
+					textarea(name="comment", cols="30", rows="3" placeholder="Комментарий" maxlength="90")
+				.form-captcha
+				.form-privacy
+					p Отправляя данную форму подтверждаю, что ознакомлен с 
+						a(href="#") политикой конфиденциальности
+						| и даю согласие на 
+						a(href="#") обработку персональных данных.
+				.form-submit
+					input(type="submit" value="Отправить")
+		header.main-header
+			.container.header
+				.side-menu
+					img(src="./assets/img/menu-icon.png", alt="menu-icon")
+					.side-menu__menu
+						ul.side-menu__list
+							li.side-menu__item
+								a(href="#") Акции и скидки
+							li.side-menu__item
+								a(href="#") Доставка и оплата
+							li.side-menu__item
+								a(href="#") Блог
+				.logo
+					img(src="./assets/img/logo.png", alt="logo")
+				nav.main-menu
+					-var mainMenu = ['Главная', 'О компании', 'Каталог', 'Примеры работ', 'Контакты']
+					ul.main-menu__list
+						each item, index in mainMenu
+							if(index == 0)
+								li.main-menu__item
+									a.main-menu__link.main-menu__link__active(href="#") #{item}
+							else 
+								li.main-menu__item
+									a.main-menu__link(href="#") #{item}
+				.lang
+					a(href="#").lang__active Ru 
+					span &nbsp;/&nbsp;
+					a(href="#") En
+				.mobile-menu
+					img.mobile-menu__icon(src="./assets/img/menu-icon.png", alt="menu-icon")
+					.mobile-menu__wrapper
+						.mobile-menu__close X
+						.mobile-menu__menu
+							ul.mobile-menu__list
+								li.mobile-menu__item
+									a(href="#") Главная
+								li.mobile-menu__item
+									a(href="#") О компании
+								li.mobile-menu__item
+									a(href="#") Каталог
+								li.mobile-menu__item
+									a(href="#") Примеры работ
+								li.mobile-menu__item
+									a(href="#") Контакты
+								li.mobile-menu__item
+									a(href="#") Акции и скидки
+								li.mobile-menu__item
+									a(href="#") Доставка и оплата
+								li.mobile-menu__item
+									a(href="#") Блог
+				.socials-and-cart
+					.socials
+						.socials-icon
+							a(href="#")
+								img(src="http://www.host1712641.hostland.pro/wp-content/uploads/2020/01/iconfinder_facebook_194929-4.png", alt="facebook")
+						.socials-icon
+							a(href="#")
+								img(src='http://www.host1712641.hostland.pro/wp-content/uploads/2020/01/iconfinder_intsagram_194923.png', alt="instagram")
+						.socials-icon
+							a(href="#")
+								img(src="http://www.host1712641.hostland.pro/wp-content/uploads/2020/01/iconfinder_vk_194929-4.png", alt="vk")
+						.socials-icon
+							a(href="#")
+								img(src="http://www.host1712641.hostland.pro/wp-content/uploads/2020/01/iconfinder_youtube_194904-2.png", alt="youtube")
+					.cart
+					.empty
+					.empty-small
+					.empty-big
