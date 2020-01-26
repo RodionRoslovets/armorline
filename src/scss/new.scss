@@ -1,0 +1,28 @@
+@import "./mixins.scss";
+.tabs {
+    &-btn {
+        &__active {
+            & a {
+                background: #fff!important;
+                color: #ac0000!important;
+            }
+        }
+        & a {
+            cursor: pointer;
+        }
+    }
+    &-img {
+        @include transition;
+        opacity: 0;
+        &.tabs-img__active {
+            opacity: 1;
+        }
+    }
+    &-text {
+        @include transition;
+        opacity: 0;
+        &.tabs-text__active {
+            opacity: 1;
+        }
+    }
+}
