@@ -142,7 +142,20 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // разделитель в крошках 
+    let separators = document.querySelectorAll('.breadcrumbs__separator');
 
+    if (separators) {
+        separators.forEach(separator => {
+            separator.innerText = ' / ';
+        });
+    }
 
+    // отодвигаем корзину
+    if (document.location.pathname === '/cart/') {
+        let colFull = document.querySelector('.col-full');
+
+        colFull.classList.add('cartfull');
+    }
 
 });

@@ -638,7 +638,14 @@ ul {
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:850px) and (min-width:768px) {
+    .lang,
+    .main-menu a {
+        font-size: 10px
+    }
+}
+
+@media screen and (max-width:768px) {
     .lang,
     .main-menu,
     .side-menu {
@@ -660,7 +667,7 @@ ul {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:769px) {
     .mobile-menu {
         display: none
     }
