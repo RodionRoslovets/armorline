@@ -1,5 +1,5 @@
-.pauk{height:458px; width:100%;}
-.hyundai{height:229px; width:100%;}
+
+a{font-family: 'Raleway'!important; text-decoration:none;}
 .red-futer{height:345px; width:136px!important;}
 .site-info {display:none;}
 .site-footer {padding: 0px;}
@@ -33,8 +33,13 @@ div#wps-slider-section #sp-woo-product-slider-516 .wpsf-cart-button a:not(.sp-wq
 #menu-menyu-v-futere{font-size:14px;}
 .site-footer a:not(.button){color:#fff; text-decoration:none;line-height:30px;}
 .site-footer a:not(.button):hover {color:#ac0000; text-decoration: underline; line-height:30px;}
+.a-futer a {font-family: 'Raleway';}
+.my-account{ display:none!important;}
+.search{ display:none!important;}
+.storefront-handheld-footer-bar {width:60px!important}
+.storefront-handheld-footer-bar ul li > a  {position:inherit;}
+.woocommerce-products-header{background:#fff;}
 
-.block-post{height:579px;}
 
 /*Шрифты, не удалять!!*/
 
@@ -177,7 +182,19 @@ a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
 }
 .breadcrumbs {
     text-align:center;
-	font-family:'Raleway', sans-serif;
+	font-size:17px;
+	font-family:'Roboto', sans-serif;
+}
+.breadcrumbs a{
+	font-size:17px;
+	font-family:'Roboto', sans-serif;
+}
+.breadcrumbs__link{
+	color:#999;
+	text-decoration:underline;
+}
+.breadcrumbs__current{
+	color:#a1322c;
 }
 .product-slider-overlay{
 	transition:all .1s linear;
@@ -255,4 +272,10 @@ padding:10px 30px}
 
 .post-time-main .post-published-time i{
 	margin-right:10px;
+}
+
+div#wps-slider-section .wpsf-product-title{
+	
+	height:40px;
+	overflow:hidden;
 }
