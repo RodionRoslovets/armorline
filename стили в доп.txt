@@ -1,44 +1,140 @@
-
-a{font-family: 'Raleway'!important; text-decoration:none;}
-.red-futer{height:345px; width:136px!important;}
-.site-info {display:none;}
-.site-footer {padding: 0px;}
-.elementor-button {font-family: 'Raleway';}
-.hentry.type-page .entry-header {display:none;}
-.menu-item a {font-family:'Raleway';}
-header {background: #000;}
-.header-left{width:146px; height: 474px; position:absolute; left:60px; top:200px;}
-.breadcrumbs, .breadcrumbs__link{
-	color:#000;
+a {
+    font-family: 'Raleway'!important;
+    text-decoration: none;
 }
-.breadcrumbs{
-	width: 100%;
+
+.red-futer {
+    height: 345px;
+    width: 136px!important;
+}
+
+.site-info {
+    display: none;
+}
+
+.site-footer {
+    padding: 0px;
+}
+
+.elementor-button {
+    font-family: 'Raleway';
+}
+
+.hentry.type-page .entry-header {
+    display: none;
+}
+
+.menu-item a {
+    font-family: 'Raleway';
+}
+
+.header-left {
+    width: 146px;
+    height: 474px;
+    position: absolute;
+    left: 60px;
+    top: 200px;
+}
+
+.breadcrumbs,
+.breadcrumbs__link {
+    color: #000;
+}
+
+.breadcrumbs {
+    width: 100%;
     max-width: 1440px;
     margin: auto;
 }
-@media (max-width:1400px){.header-left{position:absolute; left:20px; top:200px;}}
-.slick-prev.slick-arrow{
-	left:10px;
-	width:100px!important;
+
+@media (max-width:1400px) {
+    .header-left {
+        position: absolute;
+        left: 20px;
+        top: 200px;
+    }
 }
-.slick-next.slick-arrow{
-	width:100px!important;
+
+.slick-prev.slick-arrow {
+    left: 10px;
+    width: 100px!important;
 }
-.tuning{height:388px;}
 
-ul.products li.product .button{border-radius:28px; color:#fff; background:#ac0000;}
+.slick-slide {
+    position: relative;
+}
 
-div#wps-slider-section #sp-woo-product-slider-516 .wpsf-cart-button a:not(.sp-wqvpro-view-button):not(.sp-wqv-view-button){border-radius:28px; color:#fff; background:#ac0000!important;}
+.slick-next.slick-arrow {
+    width: 100px!important;
+}
 
-#menu-menyu-v-futere{font-size:14px;}
-.site-footer a:not(.button){color:#fff; text-decoration:none;line-height:30px;}
-.site-footer a:not(.button):hover {color:#ac0000; text-decoration: underline; line-height:30px;}
-.a-futer a {font-family: 'Raleway';}
-.my-account{ display:none!important;}
-.search{ display:none!important;}
-.storefront-handheld-footer-bar {width:60px!important}
-.storefront-handheld-footer-bar ul li > a  {position:inherit;}
-.woocommerce-products-header{background:#fff;}
+.tuning {
+    height: 388px;
+}
+
+ul.products li.product .button {
+    border-radius: 28px;
+    color: #fff;
+    background: #ac0000;
+}
+
+div#wps-slider-section #sp-woo-product-slider-516 .wpsf-cart-button a:not(.sp-wqvpro-view-button):not(.sp-wqv-view-button) {
+    border-radius: 28px;
+    color: #fff;
+    background: #ac0000!important;
+}
+
+#menu-menyu-v-futere {
+    font-size: 14px;
+}
+
+.site-footer a:not(.button) {
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.site-footer a:not(.button):hover {
+    color: #ac0000;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.a-futer a {
+    font-family: 'Raleway';
+}
+
+.my-account {
+    display: none!important;
+}
+
+.search {
+    display: none!important;
+}
+
+.storefront-handheld-footer-bar {
+    width: 60px!important
+}
+
+.storefront-handheld-footer-bar ul li>a {
+    position: inherit;
+}
+
+.woocommerce-products-header {
+    background: #fff;
+}
+
+.catalog {
+    opacity: 0;
+}
+
+.catalog:hover {
+    opacity: 1;
+}
+
+.storefront-product-pagination a {
+    display: none;
+}
 
 
 /*Шрифты, не удалять!!*/
@@ -48,234 +144,291 @@ div#wps-slider-section #sp-woo-product-slider-516 .wpsf-cart-button a:not(.sp-wq
     src: local('Raleway Thin'), local('Raleway-Thin'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaythin.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaythin.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaythin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
-	font-display: swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Thin Italic'), local('Raleway-ThinItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaythinitalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaythinitalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaythinitalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextralight.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextralight.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextralight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway ExtraLight Italic'), local('Raleway-ExtraLightItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextralightitalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextralightitalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextralightitalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Light'), local('Raleway-Light'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaylight.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaylight.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaylight.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Light Italic'), local('Raleway-LightItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaylightitalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaylightitalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaylightitalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Regular'), local('Raleway-Regular'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayregular.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayregular.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayregular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Italic'), local('Raleway-Italic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayitalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayitalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayitalic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Medium'), local('Raleway-Medium'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaymedium.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaymedium.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaymedium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Medium Italic'), local('Raleway-MediumItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaymediumitalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaymediumitalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaymediumitalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaysemibold.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaysemibold.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaysemibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway SemiBold Italic'), local('Raleway-SemiBoldItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaysemibolditalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaysemibolditalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaysemibolditalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Bold'), local('Raleway-Bold'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaybold.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaybold.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaybold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Bold Italic'), local('Raleway-BoldItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaybolditalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaybolditalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewaybolditalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextrabold.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextrabold.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextrabold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway ExtraBold Italic'), local('Raleway-ExtraBoldItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextrabolditalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextrabolditalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayextrabolditalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Black'), local('Raleway-Black'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayblack.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayblack.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayblack.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
-	font-display:swap;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway Black Italic'), local('Raleway-BlackItalic'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayblackitalic.woff2') format('woff2'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayblackitalic.woff') format('woff'), url('http://www.host1712641.hostland.pro/wp-includes/fonts/raleway/ralewayblackitalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
-	font-display:swap;
+    font-display: swap;
 }
 
-body{
-	font-family:'Raleway', sans-serif;
+body {
+    font-family: 'Raleway', sans-serif;
 }
-a{font-family:'Raleway', sans-serif;}
-a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
-	background:#ac0000;
-	color:#fff!important;
-	border-color:#ac0000!important;
-	border-radius:25px;
+
+a {
+    font-family: 'Raleway', sans-serif;
 }
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    background: #ac0000;
+    color: #fff!important;
+    border-color: #ac0000!important;
+    border-radius: 25px;
+}
+
 .breadcrumbs {
-    text-align:center;
-	font-size:17px;
-	font-family:'Roboto', sans-serif;
-}
-.breadcrumbs a{
-	font-size:17px;
-	font-family:'Roboto', sans-serif;
-}
-.breadcrumbs__link{
-	color:#999;
-	text-decoration:underline;
-}
-.breadcrumbs__current{
-	color:#a1322c;
-}
-.product-slider-overlay{
-	transition:all .1s linear;
-	opacity:0;
-}
-.product-slider-overlay:hover{
-	opacity:1;
-}
-.product.woocommerce.add_to_cart_inline{
-	border:none!important;
-}
-div#wps-slider-section .sp-wps-theme_two .wpsf-product .sp-wps-product-details-inner{
-	transition:translateY(0)!important;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-shortcode-add-to-cart a{
-	color:#ac0000;
-}
-.slick-arrow:hover{
-	color:#ac0000!important;
+.breadcrumbs a {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width:1250px){
-	.elementor-184 .elementor-element.elementor-element-7a95d8b2 > .elementor-widget-container, .elementor-184 .elementor-element.elementor-element-8480970 > .elementor-widget-container{
-	padding-left:105px;
-	}
-}
-@media screen and (max-width:767px){
-	.elementor-184 .elementor-element.elementor-element-7a95d8b2 > .elementor-widget-container, .elementor-184 .elementor-element.elementor-element-8480970 > .elementor-widget-container{
-	padding-left:25px;
-	}
+.breadcrumbs__link {
+    color: #999;
+    text-decoration: underline;
 }
 
-.slick-slide.wpsf-product .woocommerce-Price-amount.amount{
-	font-family:'Roboto';
-	font-weight:500;
-	font-size:24px;
+.breadcrumbs__current {
+    color: #a1322c;
 }
+
+.product-slider-overlay {
+    transition: all .1s linear;
+    opacity: 0;
+}
+
+.product-slider-overlay:hover {
+    opacity: 1;
+}
+
+.product.woocommerce.add_to_cart_inline {
+    border: none!important;
+}
+
+div#wps-slider-section .sp-wps-theme_two .wpsf-product .sp-wps-product-details-inner {
+    transition: translateY(0)!important;
+}
+
+.tinv-wraper.woocommerce.tinv-wishlist.tinvwl-shortcode-add-to-cart a {
+    color: #ac0000;
+}
+
+.slick-arrow:hover {
+    color: #ac0000!important;
+}
+
+@media screen and (max-width:1250px) {
+    .elementor-184 .elementor-element.elementor-element-7a95d8b2>.elementor-widget-container,
+    .elementor-184 .elementor-element.elementor-element-8480970>.elementor-widget-container {
+        padding-left: 105px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .elementor-184 .elementor-element.elementor-element-7a95d8b2>.elementor-widget-container,
+    .elementor-184 .elementor-element.elementor-element-8480970>.elementor-widget-container {
+        padding-left: 25px;
+    }
+}
+
+.slick-slide.wpsf-product .woocommerce-Price-amount.amount {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    color: #6e0f09;
+    ;
+}
+
 .slick-slide span.woocommerce-Price-amount.amount:before {
     content: 'от ';
 }
 
-div#wps-slider-section #sp-woo-product-slider-516 .wpsf-product-title a{
-	font-family:'Raleway'!important;
-	font-weight:400;
-	font-size:17px!important;
+div#wps-slider-section #sp-woo-product-slider-516 .wpsf-product-title a,
+div#wps-slider-section #sp-woo-product-slider-1148 .wpsf-product-title a {
+    font-family: 'Raleway'!important;
+    font-weight: 400;
+    font-size: 17px!important;
 }
+
 section.elementor-element.elementor-element-79e18496.elementor-section-stretched.elementor-section-height-min-height.elementor-section-items-top.elementor-section-boxed.elementor-section-height-default.elementor-section.elementor-top-section:hover {
     background: #ac0000;
 }
 
-
-footer .elementor-button.elementor-size-md{
-padding:10px 30px}
+footer .elementor-button.elementor-size-md {
+    padding: 10px 30px
+}
 
 .post-time-main {
     position: absolute;
     background: #ac0000;
     width: 180px!important;
-		top:-10px;
+    top: -10px;
     left: 30px;
-		height:55px;
+    height: 55px;
     display: flex;
     color: #fff;
     justify-content: center;
     align-items: center;
 }
 
-.post-time-main .post-published-time{
-	margin:0;
-	font-family:'Roboto';
-	font-weight:400;
-	font-size:17px;
+.post-time-main .post-published-time {
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
 }
 
-.post-time-main .post-published-time i{
-	margin-right:10px;
+.post-time-main .post-published-time i {
+    margin-right: 10px;
 }
 
-div#wps-slider-section .wpsf-product-title{
-	
-	height:40px;
-	overflow:hidden;
+div#wps-slider-section .wpsf-product-title {
+    height: 40px;
+    overflow: hidden;
+}
+
+.button.product_type_variable.add_to_cart_button {
+    border-radius: 25px;
+}
+
+.slick-slide .wpsf-cart-button {
+    opacity: 0;
+}
+
+div#wps-slider-section img.wpsf-product-img.wp-post-image {
+    border: none!important;
+}
+
+.wpsf-product.slick-slide {
+    border: 1px solid #ddd;
+}
+
+.storefront-sticky-add-to-cart {
+    display: none;
 }

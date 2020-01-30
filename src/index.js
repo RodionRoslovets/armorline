@@ -78,17 +78,47 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Линии
     if (document.location.origin === 'http://www.host1712641.hostland.pro' && document.location.pathname === '/') {
+        //Если главная страница, отрисовываем линии
         let buttonMainScreen = document.querySelector('.forms-button .elementor-button'),
             emptyEl = document.querySelector('header .empty'),
             emptySmall = document.querySelector('header .empty-small'),
             emptyBig = document.querySelector('header .empty-big'),
-            socAndCart = document.querySelector('.socials-and-cart');
+            socAndCart = document.querySelector('.socials-and-cart'),
+            firstBlock = document.querySelector('.elementor-element-7a7723');
 
         socAndCart.classList.add('socials-and-cart__bordered');
         emptyEl.style.display = "block";
+        emptyEl.style.height = firstBlock.getBoundingClientRect().height - socAndCart.getBoundingClientRect().height + 'px';
         emptySmall.style.width = buttonMainScreen.getBoundingClientRect().left - emptyEl.getBoundingClientRect().left - emptyEl.offsetWidth + 'px';
         emptyBig.style.left = buttonMainScreen.getBoundingClientRect().left - emptyEl.getBoundingClientRect().left + buttonMainScreen.offsetWidth + 'px';
         emptyBig.style.width = document.body.offsetWidth - (buttonMainScreen.getBoundingClientRect().left + buttonMainScreen.offsetWidth) + 'px';
+        emptyBig.style.top = firstBlock.getBoundingClientRect().height - emptyEl.getBoundingClientRect().height - 1 + 'px';
+        emptySmall.style.top = firstBlock.getBoundingClientRect().height - emptyEl.getBoundingClientRect().height - 1 + 'px';
+
+        //Отрисовка линий при изменении размера
+
+        window.onresize = () => {
+            let buttonMainScreen = document.querySelector('.forms-button .elementor-button'),
+                emptyEl = document.querySelector('header .empty'),
+                emptySmall = document.querySelector('header .empty-small'),
+                emptyBig = document.querySelector('header .empty-big'),
+                socAndCart = document.querySelector('.socials-and-cart'),
+                firstBlock = document.querySelector('.elementor-element-7a7723');
+
+            socAndCart.classList.add('socials-and-cart__bordered');
+            emptyEl.style.display = "block";
+            emptyEl.style.height = firstBlock.getBoundingClientRect().height - socAndCart.getBoundingClientRect().height + 'px;';
+            emptySmall.style.width = buttonMainScreen.getBoundingClientRect().left - emptyEl.getBoundingClientRect().left - emptyEl.offsetWidth + 'px';
+            emptyBig.style.left = buttonMainScreen.getBoundingClientRect().left - emptyEl.getBoundingClientRect().left + buttonMainScreen.offsetWidth + 'px';
+            emptyBig.style.width = document.body.offsetWidth - (buttonMainScreen.getBoundingClientRect().left + buttonMainScreen.offsetWidth) + 'px';
+            emptyBig.style.top = firstBlock.getBoundingClientRect().height - emptyEl.getBoundingClientRect().height - 1 + 'px';
+            emptySmall.style.top = firstBlock.getBoundingClientRect().height - emptyEl.getBoundingClientRect().height - 1 + 'px';
+        }
+
+    } else {
+        //Если не главная, добавляем белый фон
+        let socAndCart = document.querySelector('.socials-and-cart');
+        socAndCart.style.background = "#fff";
     }
 
     // табы на главной
